@@ -9,7 +9,16 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.14.0"
+    "eagle.js": "^0.6.1",
+    "jarallax": "^1.12.2",
+    "nuxt": "^2.14.0",
+    "object-fit-images": "^3.2.4",
+    "vue-parallaxy": "^1.1.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3"
+  }
 }
