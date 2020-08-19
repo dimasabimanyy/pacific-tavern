@@ -1,5 +1,5 @@
 <template>
-    <div id="menu-pricing" class="container">
+    <div id="menu" class="container-md">
         <div class="menu-logo">
             <img src="~/assets/images/pacific-dark.png" alt="">
         </div>
@@ -124,7 +124,7 @@
 </template>
 
 <style lang="scss" scoped>
-#menu-pricing{
+#menu{
     padding: 7em 0;
     display: flex;
     align-items: center;

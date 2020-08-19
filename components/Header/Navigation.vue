@@ -17,8 +17,8 @@
                 <nuxt-link to="#drinks" tag="li" class="nav-link">
                     <a>Drinks</a>
                 </nuxt-link>
-                <nuxt-link to="/contact" tag="li" class="nav-link btn-book-now">
-                    <a>Book Now</a>
+                <nuxt-link to="#reservation" tag="li" class="nav-link">
+                    <a>Reservation</a>
                 </nuxt-link>
             </ul>
         </div>

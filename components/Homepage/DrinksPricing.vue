@@ -1,6 +1,6 @@
 <template>
-    <div id="drinks-pricing">
-        <div class="drinks-wrapper">
+    <div id="drinks">
+        <div class="drinks-wrapper container-md">
             
             <div class="menu-logo">
                 <img src="~/assets/images/pacific-logo.png" alt="">
@@ -72,6 +72,49 @@
                         </div>
                         <p class="menu-desc">cheddar, gruyere, gouda, truffle oil</p>
                     </div>
+                    <div class="menu-item">
+                        <div class="menu-sub-title">
+                            <h4>Mac and Cheese</h4>
+                            <div class="menu-price">$13</div>
+                        </div>
+                        <p class="menu-desc">cheddar, gruyere, gouda, truffle oil</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-sub-title">
+                            <h4>Mac and Cheese</h4>
+                            <div class="menu-price">$13</div>
+                        </div>
+                        <p class="menu-desc">cheddar, gruyere, gouda, truffle oil</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-sub-title">
+                            <h4>Mac and Cheese</h4>
+                            <div class="menu-price">$13</div>
+                        </div>
+                        <p class="menu-desc">cheddar, gruyere, gouda, truffle oil</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-sub-title">
+                            <h4>Mac and Cheese</h4>
+                            <div class="menu-price">$13</div>
+                        </div>
+                        <p class="menu-desc">cheddar, gruyere, gouda, truffle oil</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-sub-title">
+                            <h4>Mac and Cheese</h4>
+                            <div class="menu-price">$13</div>
+                        </div>
+                        <p class="menu-desc">cheddar, gruyere, gouda, truffle oil</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-sub-title">
+                            <h4>Mac and Cheese</h4>
+                            <div class="menu-price">$13</div>
+                        </div>
+                        <p class="menu-desc">cheddar, gruyere, gouda, truffle oil</p>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -85,7 +128,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#drinks-pricing{
+#drinks{
     width: 100%;
     position: relative;
     background: url('../../assets/images/drinks-bg.jpg');
@@ -97,8 +140,6 @@ export default {
     justify-content: center;
     flex-direction: column;
     .drinks-wrapper{
-        width: 80%;
-        margin: 0 auto;
         .menu-logo{
         width: 250px;
         margin: 0 auto;

@@ -42,6 +42,10 @@ export default {
   width: 90%;
   margin: 0 auto;
 }
+.container-md{
+  width: 80%;
+  margin: 0 auto;
+}
 .container{
   width: 60%;
   margin: 0 auto;
