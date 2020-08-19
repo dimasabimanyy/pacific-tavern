@@ -21,6 +21,7 @@ import DrinksPricing from '../components/Homepage/DrinksPricing.vue';
 import MenuPricing from '../components/Homepage/MenuPricing.vue';
 import ParallaxSection from '../components/Homepage/ParallaxSection.vue';
 import Reservation from '../components/Homepage/Reservation.vue';
+import Footer from '../components/Footer/Footer.vue';
 
 
 export default {
@@ -30,7 +31,8 @@ export default {
     DrinksPricing,
     MenuPricing,
     ParallaxSection,
-    Reservation
+    Reservation,
+    Footer
   }
 }
 </script>
@@ -41,7 +43,7 @@ export default {
   margin: 0 auto;
 }
 .container{
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 a{

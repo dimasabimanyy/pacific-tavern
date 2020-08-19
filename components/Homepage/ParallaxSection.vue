@@ -1,6 +1,6 @@
 <template>
    <div id="parallax-section">
-       <v-parallax src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"></v-parallax>
+       <v-parallax height="600" src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"></v-parallax>
    </div>
 </template>
 
@@ -14,6 +14,5 @@ export default {
 <style lang="scss" scoped>
 #parallax-section{
     width: 100%;
-    height: 100vh;
 }
 </style>

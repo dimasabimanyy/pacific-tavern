@@ -31,8 +31,6 @@ export default {
     justify-content: center;
     align-items: center;
     .about-wrap{
-        width: 60%;
-        margin: 0 auto;
         color: $font-dark;
         h4{
             font-size: 19px;
