@@ -60,7 +60,7 @@
                 .nav-link a:hover,
                 .nav-link a:active,
                 .nav-link.nuxt-link-exact-active a{
-                    color: #06c4d1;
+                    color: #e4e4e4;
                 }
             }
         }

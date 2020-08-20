@@ -1,6 +1,6 @@
 <template>
    <div id="parallax-section">
-       <v-parallax height="600" src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"></v-parallax>
+       <v-parallax :height="700" :src="require('@/assets/images/parallax-section.jpg')"></v-parallax>
    </div>
 </template>
 

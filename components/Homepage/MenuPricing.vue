@@ -5,7 +5,10 @@
         </div>
         
         <div class="menu-wrapper">
-            <h3 class="menu-title">SNACK x SALADS</h3>
+            <div class="menu-title">
+                <div class="line-story"></div>
+                <h3>SNACK x SALAD</h3>
+            </div>
             <div class="menu-list">
                 <div class="menu-item">
                     <div class="menu-sub-title">
@@ -32,7 +35,10 @@
         </div>
 
         <div class="menu-wrapper">
-            <h3 class="menu-title">SANDWICHES</h3>
+            <div class="menu-title">
+                <div class="line-story"></div>
+                <h3>SANDWICHES</h3>
+            </div>
             <div class="menu-list">
                 <div class="menu-item">
                     <div class="menu-sub-title">
@@ -80,7 +86,10 @@
         </div>
 
         <div class="menu-wrapper">
-            <h3 class="menu-title">MAINS</h3>
+            <div class="menu-title">
+                <div class="line-story"></div>
+                <h3>MAINS</h3>
+            </div>
             <div class="menu-list">
                 <div class="menu-item">
                     <div class="menu-sub-title">
@@ -140,21 +149,33 @@
     .menu-wrapper{
         margin-bottom: 2em;
         .menu-title{
-            text-align: center;
-            font-family: $font-stack;
-            font-size: 17px;
-            margin-bottom: 2em;
-            margin-top: 2em;
-            color: rgba(0,0,0,0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .line-story{
+                width: 50px;
+                border: 0.5px solid rgba(0,0,0,0.7);
+                // background: $font-dark;
+                transition: .5s ease-in-out;
+            }
+            h3{
+                margin-left: 1em;
+                text-align: center;
+                font-family: $font-stack;
+                font-size: 17px;
+                margin-bottom: 2em;
+                margin-top: 2em;
+                color: rgba(0,0,0,0.7);
+            }
         }
         .menu-list{
             display: grid;
             grid-gap: 1.5em;
             grid-template-columns: 1fr 1fr 1fr;
             .menu-item{
-                -webkit-box-shadow: 4px 6px 10px .5px rgba(0,0,0,0.1);
-                -moz-box-shadow: 4px 6px 10px .5px rgba(0,0,0,0.1);
-                box-shadow: 4px 6px 10px .5px rgba(0,0,0,0.1);
+                // -webkit-box-shadow: 4px 6px 10px .5px rgba(0,0,0,0.1);
+                // -moz-box-shadow: 4px 6px 10px .5px rgba(0,0,0,0.1);
+                // box-shadow: 4px 6px 10px .5px rgba(0,0,0,0.1);
                 padding: 1em;
                 // border: 1px solid #ccc;
                 transition: .3s ease-in-out;
@@ -166,10 +187,11 @@
                     h4{
                         font-size: 17px;
                         line-height: 24px;
-                        color: rgba(0,0,0,0.8);
+                        color: rgba(0,0,0,0.7);
                         font-family: $font-stack;
                     }
                     .menu-price{
+                        color: rgba(0,0,0,0.7);
                         font-family: $second-font;
                     }
                 }
@@ -178,11 +200,13 @@
                     font-weight: 400;
                     font-size: 17px;
                     line-height: 25px;
-                    color: rgba(0,0,0,0.8);
+                    color: rgba(0,0,0,0.6);
                 }
             }
             .menu-item:hover{
-                box-shadow: none;
+                -webkit-box-shadow: 4px 6px 10px .5px rgba(0,0,0,0.1);
+                -moz-box-shadow: 4px 6px 10px .5px rgba(0,0,0,0.1);
+                box-shadow: 4px 6px 10px .5px rgba(0,0,0,0.1);
             }
         }
 

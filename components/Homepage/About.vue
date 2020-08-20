@@ -45,7 +45,7 @@ export default {
             font-family: $second-font;
             margin-bottom: 1em;
             margin-top: 1em;
-            font-weight: 600;
+            font-weight: 500;
         }
         .about-desc{
             margin-bottom: 3em;
@@ -54,6 +54,7 @@ export default {
                 font-size: 19px;
                 line-height: 32px;
                 font-family: $second-font;
+                color: rgb(0, 0, 0, 0.7);
             }
         }
         .discover-story{
@@ -69,7 +70,7 @@ export default {
                 transition: .5s ease-in-out;
             }
             .line-story{
-                width: 60px;
+                width: 50px;
                 border: 0.5px solid $font-dark;
                 background: $font-dark;
                 transform: rotate(-45deg);
