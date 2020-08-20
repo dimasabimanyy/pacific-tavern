@@ -23,7 +23,7 @@ export default {
 
 <style lang="scss" scoped>
 #reservation{
-    height: 80vh;
+    padding: 7em 0;
     text-align: center;
     display: flex;
     align-items: center;
@@ -44,6 +44,10 @@ export default {
         font-weight: 700;
         font-size: 14px;
         margin-bottom: 3em;
+        transition: .3s ease-in;
+    }
+    .btn-book-now:hover{
+        background: #B5A46D;
     }
     .reservation-info{
         p{

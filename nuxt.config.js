@@ -36,7 +36,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    { src: '~/plugins/jarallax.js', ssr: false }
+    { src: "@/plugins/aos", ssr: false }
   ],
   /*
   ** Auto import components

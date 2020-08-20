@@ -8,6 +8,7 @@
       <MenuPricing />
       <DrinksPricing />
       <Reservation />
+      <Maps />
     </main>
 
     <Footer />
@@ -22,6 +23,7 @@ import MenuPricing from '../components/Homepage/MenuPricing.vue';
 import ParallaxSection from '../components/Homepage/ParallaxSection.vue';
 import Reservation from '../components/Homepage/Reservation.vue';
 import Footer from '../components/Footer/Footer.vue';
+import Maps from '../components/Contact/Maps.vue';
 
 
 export default {
@@ -32,7 +34,8 @@ export default {
     MenuPricing,
     ParallaxSection,
     Reservation,
-    Footer
+    Footer,
+    Maps
   }
 }
 </script>

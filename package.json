@@ -9,7 +9,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "eagle.js": "^0.6.1",
+    "epic-spinners": "^1.1.0",
     "jarallax": "^1.12.2",
     "nuxt": "^2.14.0",
     "object-fit-images": "^3.2.4",

@@ -1,18 +1,17 @@
 <template>
     <div id="about">
         <div class="about-wrap container">
-            <h4>About Pacific Tavern</h4>
-            <h1>Located in Park Slope, Pacific Tavern is a purveyor of fine American dining from the esteemed Chef Billy Lang.</h1>
+            <h4 data-aos="fade-up" data-aos-duration="1000">About Pacific Tavern</h4>
+            <h1 data-aos="fade-up" data-aos-duration="1200">Located in Park Slope, Pacific Tavern is a purveyor of fine American dining from the esteemed Chef Billy Lang.</h1>
             <div class="about-desc">
-                <p>Pacific Tavern opened in May 2010 and is located inside the Smith Hotel Brooklyn. Since then, Golden Spork winner Chef Lang has been serving both quality interpretations of classic dishes and daring new ventures into the uncharted territories of food.</p>
-                <!-- <p>Pacific Tavern's interior, designed by the award-winning Hayden Collective, reflects the hip sensibilities of the surrounding area while also paying tribute to Brooklyn's storied past. The multi-level restaurant offers the choice to observe passers-by in the glass-encased Cascade Bar on the 2nd floor, or watch the art of cooking as it occurs in the open-kitchen dining room.</p> -->
+                <p data-aos="fade-up" data-aos-duration="1400">Pacific Tavern opened in May 2010 and is located inside the Smith Hotel Brooklyn. Since then, Golden Spork winner Chef Lang has been serving both quality interpretations of classic dishes and daring new ventures into the uncharted territories of food.</p>
             </div>
-            <div class="discover-story">
+            <!-- <div class="discover-story">
                 <div class="line-story"></div>
                 <a href="">
-                    <h3>Discover More</h3>
+                    <h3 data-aos="fade-up" data-aos-duration="1500">Discover More</h3>
                 </a>
-            </div>
+            </div> -->
         </div>
     </div>
 </template>

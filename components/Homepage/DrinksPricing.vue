@@ -7,14 +7,14 @@
             </div>
 
             <div class="menu-wrapper">
-                <h3 class="menu-title">DRINKS</h3>
+                <h3 class="menu-title" data-aos="fade-up" data-aos-duration="1000">DRINKS</h3>
                 <div class="menu-list">
                     <div class="menu-item">
-                        <div class="menu-sub-title">
+                        <div class="menu-sub-title" data-aos="fade-up" data-aos-duration="1000">
                             <h4>Primavera Salad</h4>
                             <div class="menu-price">$8</div>
                         </div>
-                        <p class="menu-desc">arugula, cherry tomato, shaved almonds, shallot vinaigrette</p>
+                        <p class="menu-desc" data-aos="fade-up" data-aos-duration="1000">arugula, cherry tomato, shaved almonds, shallot vinaigrette</p>
                     </div>
                     <div class="menu-item">
                         <div class="menu-sub-title">

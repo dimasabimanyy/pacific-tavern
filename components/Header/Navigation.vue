@@ -17,8 +17,8 @@
                 <nuxt-link to="#drinks" tag="li" class="nav-link">
                     <a>Drinks</a>
                 </nuxt-link>
-                <nuxt-link to="#reservation" tag="li" class="nav-link">
-                    <a>Reservation</a>
+                <nuxt-link to="#reservation" tag="li" class="nav-btn">
+                    <a class="btn-reservation">Reservations</a>
                 </nuxt-link>
             </ul>
         </div>
@@ -47,7 +47,7 @@
                 display: inline-flex;
                 list-style: none;
                 align-items: center;
-                .nav-link{
+                .nav-link, .nav-btn{
                     margin-left: 2.5em;
                     a{
                         text-transform: uppercase;
@@ -57,12 +57,19 @@
                         font-weight: 700;
                     }
                 }
-                .nav-link a:hover,
-                .nav-link a:active,
-                .nav-link.nuxt-link-exact-active a{
+                .nav-link a:hover{
                     color: #e4e4e4;
                 }
             }
         }
+    }
+    .btn-reservation{
+        padding: .9em 1.7em;
+        background: #B5A46D;
+        transition: .3s ease-in;
+    }
+    .btn-reservation:hover{
+        color: !important #fff;
+        background: $font-dark;
     }
 </style>

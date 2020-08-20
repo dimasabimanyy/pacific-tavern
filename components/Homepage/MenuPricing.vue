@@ -5,17 +5,17 @@
         </div>
         
         <div class="menu-wrapper">
-            <div class="menu-title">
+            <div class="menu-title" data-aos="fade-up" data-aos-duration="1000">
                 <div class="line-story"></div>
                 <h3>SNACK x SALAD</h3>
             </div>
             <div class="menu-list">
                 <div class="menu-item">
                     <div class="menu-sub-title">
-                        <h4>Primavera Salad</h4>
-                        <div class="menu-price">$8</div>
+                        <h4 data-aos="fade-up" data-aos-duration="1000">Primavera Salad</h4>
+                        <div class="menu-price" data-aos="fade-up" data-aos-duration="1000">$8</div>
                     </div>
-                    <p class="menu-desc">arugula, cherry tomato, shaved almonds, shallot vinaigrette</p>
+                    <p class="menu-desc" data-aos="fade-up" data-aos-duration="1000">arugula, cherry tomato, shaved almonds, shallot vinaigrette</p>
                 </div>
                 <div class="menu-item">
                     <div class="menu-sub-title">
