@@ -138,25 +138,27 @@
         }
     }
     .menu-wrapper{
-        margin-bottom: 1em;
+        margin-bottom: 2em;
         .menu-title{
             text-align: center;
             font-family: $font-stack;
             font-size: 17px;
             margin-bottom: 2em;
             margin-top: 2em;
+            color: rgba(0,0,0,0.8);
         }
         .menu-list{
             display: grid;
-            grid-gap: 1em;
+            grid-gap: 1.5em;
             grid-template-columns: 1fr 1fr 1fr;
             .menu-item{
                 -webkit-box-shadow: 4px 6px 10px .5px rgba(0,0,0,0.1);
                 -moz-box-shadow: 4px 6px 10px .5px rgba(0,0,0,0.1);
                 box-shadow: 4px 6px 10px .5px rgba(0,0,0,0.1);
                 padding: 1em;
-                border: 1px solid #ccc;
+                // border: 1px solid #ccc;
                 transition: .3s ease-in-out;
+                border-radius: 3px;
                 .menu-sub-title{
                     display: flex;
                     justify-content: space-between;
@@ -164,6 +166,7 @@
                     h4{
                         font-size: 17px;
                         line-height: 24px;
+                        color: rgba(0,0,0,0.8);
                         font-family: $font-stack;
                     }
                     .menu-price{

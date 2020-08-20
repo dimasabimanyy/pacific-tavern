@@ -2,7 +2,7 @@
     <nav>
         <div class="nav-wrap container-fluid">
             <div class="logo">
-                <img src="~/assets/images/pacific-logo.png" alt="Pacific Logo">
+                <img src="~/assets/images/pacific-dark.png" alt="Pacific Logo">
             </div>
             <ul class="nav-links">
                 <nuxt-link to="/" tag="li" class="nav-link">
@@ -51,16 +51,12 @@
                     margin-left: 2.5em;
                     a{
                         text-transform: uppercase;
-                        color: $font-light;
+                        color: $font-dark;
                         font-family: $font-stack;
                         font-size: 15px;
                         font-weight: 700;
+                        line-height: 25px;
                     }
-                }
-                .nav-link a:hover,
-                .nav-link a:active,
-                .nav-link.nuxt-link-exact-active a{
-                    color: #06c4d1;
                 }
             }
         }

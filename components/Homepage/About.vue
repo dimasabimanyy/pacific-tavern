@@ -10,7 +10,7 @@
             <div class="discover-story">
                 <div class="line-story"></div>
                 <a href="">
-                    Discover More
+                    <h3>Discover More</h3>
                 </a>
             </div>
         </div>
@@ -33,21 +33,22 @@ export default {
     .about-wrap{
         color: $font-dark;
         h4{
-            font-size: 19px;
-            font-weight: 500;
+            font-size: 17px;
+            text-transform: uppercase;
+            font-weight: 700;
             line-height: 32px;
             font-family: $font-stack;
         }
         h1{
-            font-size: 32px;
+            font-size: 28px;
             line-height: 44px;
             font-family: $second-font;
             margin-bottom: 1em;
             margin-top: 1em;
-            font-weight: 500;
+            font-weight: 600;
         }
         .about-desc{
-            margin-bottom: 2em;
+            margin-bottom: 3em;
             p{
                 margin-bottom: 1em;
                 font-size: 19px;
@@ -59,19 +60,27 @@ export default {
             display: flex;
             align-items: center;
             a{
-                font-family: $font-stack;
+                font-family: 'Raleway', sans-serif;
                 color: $font-dark;
-                font-weight: 700;
                 letter-spacing: 1px;
                 text-transform: uppercase;
-                font-size: 15px;
-                margin-left: 1em;
+                font-size: 13px;
+                line-height: 20px;
+                transition: .5s ease-in-out;
             }
             .line-story{
                 width: 60px;
-                height: 1px;
+                border: 0.5px solid $font-dark;
                 background: $font-dark;
+                transform: rotate(-45deg);
+                transition: .5s ease-in-out;
             }
+        }
+        .discover-story:hover .line-story{
+            transform: rotate(0deg);
+        }
+        .discover-story:hover a{
+            margin-left: .5em;
         }
         
     }
